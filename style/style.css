@@ -1,0 +1,85 @@
+body{
+    font-weight: 400; /* font-weight 400 = normal, 700 = negrito. */
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em; 
+    color: #010101;
+
+}
+
+
+h1{
+  font-size: 63px;
+   color: #303030;
+}
+
+
+ul, li, a{
+float: right;
+padding: 25px;
+color: blueviolet;
+list-style: none;
+text-decoration: none;
+
+}
+
+
+header, h2{
+ text-align: center;
+}
+
+
+footer, h5{
+ font-weight: 700;
+ padding: 0px;
+ text-align: center;
+ float: inline-end;
+}
+
+
+aside, video{
+ text-align: center;
+ font-weight: 700;
+
+}
+
+
+ul, .dropdown-menu, .dropdown-item{
+ font-weight: 700;
+ color: azure;
+ text-decoration: underline;
+ text-decoration-color: rgb(233, 138, 23);
+ &:hover{
+   color: azure;
+ }
+ :visited{
+   color: azure;
+ }  
+}
+
+
+.navbar-collapse .navbar-nav .nav-item, .nav-link{
+ font-weight: 700;
+ color: azure;
+ text-decoration: underline;
+ text-decoration-color: rgb(233, 138, 23);
+ &:hover{
+   color:azure;
+ }
+ :visited{
+   color: azure;
+ }
+}
+
+
+.h2titulo {
+ font-size:  24px;
+ text-transform:uppercase;
+ color:azure;
+ font-weight: 700;
+ background-color: rgb(238, 138, 8);
+ margin: 0%;
+ padding: 1px;
+ text-align: center;
+
+}
